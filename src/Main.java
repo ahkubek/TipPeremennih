@@ -11,6 +11,11 @@ public class Main {
         double f = 2.786d;
         short paper = 480;
         int result = paper/80;
+        int bottle = 8;
+        int result2 =bottle*1440;
+        int resultbotl =bottle*20;
+        int result3 = bottle*4320;
+        int result4 =bottle*43200;
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);
@@ -19,5 +24,9 @@ public class Main {
         System.out.println(g);
         System.out.println(f);
         System.out.println ("На каждому участнику  останется " +result+" листов бумаги");
+        System.out.println( + (resultbotl)+ ",бутылок за 20 минут");
+        System.out.println((result2)+  " Бутылок за сутки");
+        System.out.println((result3)+ " Бутылок за три дня");
+        System.out.println((result4)+ " Бутылок за месяц");
     }
 }
