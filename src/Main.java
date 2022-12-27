@@ -17,12 +17,15 @@ public class Main {
         int banan=  80*5;
         int milk = 105*2;
         int  CreamSundae = 100*2;
+        int variant1= 250*30;
+        int variant2=500*30;
         int RawEggs = 280;
         int result2 =bottle*1440;
         int resultbotl =bottle*20;
         int result3 = bottle*4320;
         int result4 =bottle*43200;
         int result5 = banan+milk+CreamSundae+RawEggs;
+
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);
@@ -37,6 +40,9 @@ public class Main {
         System.out.println((result4)+ " Бутылок за месяц");
         System.out.println("В школе где 20 классов нужно "+ (White_Paint)+ " банок белой краски");
         System.out.println("и "+ (Brown_Paint)+ " банок коричневой краски");
-        System.out.println(result5+"Общий вес коктейля");
+        System.out.println((result5)+"Общий вес коктейля");
+        System.out.println(variant1+" кг Спортсмен потеряет, если будет тратить по 250 грамм в день");
+        System.out.println(variant2+" кг Спортсмен потеряет, если будет тратить по 2500 грамм в день");
+
     }
 }
