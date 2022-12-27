@@ -12,6 +12,8 @@ public class Main {
         short paper = 480;
         int result = paper/80;
         int bottle = 8;
+        int White_Paint=40;
+        int Brown_Paint=80;
         int result2 =bottle*1440;
         int resultbotl =bottle*20;
         int result3 = bottle*4320;
@@ -28,5 +30,7 @@ public class Main {
         System.out.println((result2)+  " Бутылок за сутки");
         System.out.println((result3)+ " Бутылок за три дня");
         System.out.println((result4)+ " Бутылок за месяц");
+        System.out.println("В школе где 20 классов нужно "+ (White_Paint)+ " банок белой краски");
+        System.out.println("и "+ (Brown_Paint)+ " банок коричневой краски");
     }
 }
